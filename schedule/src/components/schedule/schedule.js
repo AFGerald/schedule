@@ -7,6 +7,9 @@ class Schedule extends Component {
         return (
             <div className="Schedule">
                 <h1 className="schedule__title">My Schedule</h1>
+                <ScheduleCourse title={'Problem Solving'}/>
+                <ScheduleCourse title={'Problem Solving'}/>
+                <ScheduleCourse title={'Problem Solving'}/>
                 <Gradient/>
             </div>
         )
