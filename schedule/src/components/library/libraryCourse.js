@@ -17,10 +17,7 @@ class LibraryCourse extends Component {
         <div className="library-course__description">
           <label>Course Description</label>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-            fringilla facilisis mi, non pellentesque metus consectetur vel.
-            Quisque dictum, lectus vitae dignissim tincidunt, sapien nibh
-            placerat diam, quis blandit enim nulla in felis.
+          { this.props.description }
           </p>
         </div>
       </div>
